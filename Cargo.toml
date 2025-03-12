@@ -1,0 +1,9 @@
+[package]
+name = "Blockchain_OS_Simulation_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = ["kernel", "chain_adapters/*", "bridging_modules/*", "cli", ]
